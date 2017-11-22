@@ -4,7 +4,7 @@ Created on 2017年11月20日
 @author: Administrator
 '''
 
-class ServerLists(object):
+class Settings(object):
     '''
     classdocs
     '''

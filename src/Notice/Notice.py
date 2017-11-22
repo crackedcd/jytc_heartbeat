@@ -5,7 +5,7 @@ Created on 2017年11月20日
 '''
 
 from Notice.Mail import Mail
-from Settings.ServerLists import ServerLists
+from Settings.Settings import Settings
 
 class Notice(object):
     '''
@@ -17,7 +17,7 @@ class Notice(object):
         '''
         Constructor
         '''
-        l = ServerLists()
+        l = Settings()
         self.maillist = l.get_maillist()
         self.content = content
         

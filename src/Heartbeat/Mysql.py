@@ -22,7 +22,7 @@ class Mysql(object):
     
     def __spy__(self, ip_addr, port = 3306):
         try:
-            conn = MySQLdb.connect(host=ip_addr, port=port, user="root", passwd="jytc$123")
+            conn = MySQLdb.connect(host=ip_addr, port=port, user="root", passwd="")
             cursor = conn.cursor()
             cursor.execute("SELECT VERSION()")
             cursor.fetchone()

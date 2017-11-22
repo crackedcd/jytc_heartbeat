@@ -4,10 +4,8 @@ Created on 2017年11月20日
 @author: Administrator
 '''
 
-from email import encoders
 from email.header import Header
 from email.mime.text import MIMEText
-from email.utils import parseaddr, formataddr
 import smtplib
 
 class Mail(object):
